@@ -92,9 +92,6 @@ export default function Home() {
                 <span className="text-emerald-400">&#8594;</span> Veterans transitioning careers
               </div>
               <div className="text-slate-300">
-                <span className="text-emerald-400">&#8594;</span> Individuals with disabilities
-              </div>
-              <div className="text-slate-300">
                 <span className="text-emerald-400">&#8594;</span> Career changers
               </div>
               <div className="text-slate-300">
@@ -103,6 +100,28 @@ export default function Home() {
               <div className="text-slate-300">
                 <span className="text-emerald-400">&#8594;</span> Anyone whose talent exceeds their transcript
               </div>
+            </div>
+          </div>
+
+          {/* Disability Rights Focus */}
+          <div className="bg-gradient-to-r from-emerald-900/50 to-teal-900/50 rounded-2xl p-8 border border-emerald-400/40 mb-12 max-w-2xl mx-auto">
+            <h2 className="text-xl font-semibold text-emerald-300 mb-4">
+              Disability Community: A Core Priority
+            </h2>
+            <p className="text-slate-300 mb-4">
+              Traditional credentialing systematically excludes people with disabilities through
+              timed testing, inaccessible locations, rigid schedules, and sensory barriers.
+            </p>
+            <p className="text-white font-medium mb-4">
+              We partner with disability rights organizations to build credentialing that works for everyone:
+            </p>
+            <div className="flex flex-wrap gap-2 text-sm">
+              <span className="bg-emerald-800/50 text-emerald-300 px-3 py-1 rounded-full">NOD</span>
+              <span className="bg-emerald-800/50 text-emerald-300 px-3 py-1 rounded-full">AAPD</span>
+              <span className="bg-emerald-800/50 text-emerald-300 px-3 py-1 rounded-full">The Arc</span>
+              <span className="bg-emerald-800/50 text-emerald-300 px-3 py-1 rounded-full">Autism Speaks</span>
+              <span className="bg-emerald-800/50 text-emerald-300 px-3 py-1 rounded-full">Disability:IN</span>
+              <span className="bg-emerald-800/50 text-emerald-300 px-3 py-1 rounded-full">RespectAbility</span>
             </div>
           </div>
 
